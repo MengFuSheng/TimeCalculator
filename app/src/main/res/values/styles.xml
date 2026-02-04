@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用主题 -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:statusBarColor">#303F9F</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- 卡片标题样式 -->
+    <style name="CardTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+
+    <!-- 卡片描述样式 -->
+    <style name="CardDescriptionStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#757575</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <color name="background">#F8F9FA</color>
+</resources>

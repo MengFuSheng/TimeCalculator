@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960"
+    android:tint="?attr/colorControlNormal">
+    <!-- 时钟外圈（圆环填充，非描边） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M480,120C281,120 120,281 120,480S281,840 480,840 840,679 840,480 679,120 480,120ZM480,760C326,760 200,634 200,480S326,200 480,200 760,326 760,480 634,760 480,760Z" />
+    <!-- 12小时制主刻度（12点） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M460,160L500,160 500,240 460,240Z" />
+    <!-- 12小时制主刻度（3点） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M720,460L720,500 640,500 640,460Z" />
+    <!-- 12小时制主刻度（6点） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M460,720L500,720 500,800 460,800Z" />
+    <!-- 12小时制主刻度（9点） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M320,460L320,500 240,500 240,460Z" />
+    <!-- 24小时制辅助刻度（15点/3点偏下） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M700,540L700,560 660,560 660,540Z" />
+    <!-- 24小时制辅助刻度（21点/9点偏下） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M300,540L300,560 260,560 260,540Z" />
+    <!-- 中心双向箭头（上箭头） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M440,440L480,400 520,440 480,440Z" />
+    <!-- 中心双向箭头（下箭头） -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M440,520L480,560 520,520 480,520Z" />
+</vector>
